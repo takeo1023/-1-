@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.header{
+  width: auto;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+.main{
+  width: auto;
+  height: 50px;
+}
+
+
+
+.footer{
+  width: auto;
+  height: 50px;
+  background-color: #AAAAAA
+}
+
