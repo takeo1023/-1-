@@ -34,7 +34,7 @@ main{
 
 
 .step-num {
-   position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: #ff9a4b;
@@ -76,14 +76,23 @@ main{
 
 @media screen and (max-width: 768px) {
 
+
+
   main {
     width: 100%;
     display: block;
+
   }
 
 
-  .stepbox {
+  .step-box {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+  }
+
+  .step-box:last-child {
+    margin: 0 auto;
   }
 }
+
+
